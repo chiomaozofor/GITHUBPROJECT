@@ -238,6 +238,7 @@ function Header() {
         <article>Pricing </article>
 
 </div>
+{ /* i love you */}
       
       </section>
       <div className="auth-buttons">
