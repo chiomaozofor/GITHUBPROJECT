@@ -1,0 +1,22 @@
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    background-color: #151B23;
+    padding: 10px;
+    color: #454C55;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-bottom p {
+    margin-bottom: 10px;
+  }
+  .social-icons{
+    display: flex;
+    gap: 30px;
+  }
+  .social-icons img {
+    width: 24px;
+    margin: 0 30px;
+    
+  }

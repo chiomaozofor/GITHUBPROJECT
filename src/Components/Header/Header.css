@@ -1,0 +1,204 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #030541;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo-nav{
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.logo svg {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+.down:hover{
+  cursor: pointer;
+  display: inline-block;  
+  transition: transform 0.3s !important;
+}
+.navbar {
+  background-color:  #030541;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  position: relative;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 500px;
+  flex-direction: row; 
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-sub{
+  display: flex !important;
+  flex-direction: row ;
+  justify-content: space-around;
+}
+.dropdown-sub2{
+  display: flex !important;
+  flex-direction: row ;
+  padding: 20px;
+  gap: 50px;
+  justify-content: center;
+}
+.explore{
+  line-height: 2;
+}
+.explore-c{
+  line-height: 2;
+}
+.explore-c>p:hover{
+  cursor: pointer;
+  color: blue !important;
+}
+.explore-a:hover{
+  cursor: pointer;
+  color: blue !important;
+}
+.dropdown-content .dropdown-sub {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-a{
+display: flex !important;
+font-size: smaller;
+margin: 20px 0;
+gap: 10px;
+flex-direction: row !important;
+
+}
+.dropdown-a:hover{
+  cursor: pointer;
+  color: blue !important;
+}
+.dropdown-b{
+  line-height: 2;
+}
+.dropdown-b >aside>p:hover{
+  cursor: pointer;
+  color: blue !important;
+}
+/* #blue{
+  font-size: 13px;
+} */
+
+#blue:hover {
+  cursor: pointer;
+  color: blue !important;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: rgb(43, 22, 164);
+  
+} 
+
+
+
+.auth-buttons .btn {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.auth-buttons .login {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.auth-buttons .login:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.auth-buttons .signup {
+  background-color: #2ea44f;
+  color: white;
+}
+
+.auth-buttons .signup:hover {
+  background-color: #2c974b;
+}
+.ddropdown-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 320px;
+  flex-direction: row; 
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  gap:5px;
+}
+/* .ddropdown-content .dropdown-sub {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+} */
+.dropdown:hover .ddropdown-content {
+  display: block;
+  color: rgb(43, 22, 164);
+  
+} 
+.ddropdown-content > .dropdown-sub2{
+  display: flex !important;
+  flex-direction: row ;
+  padding: 30px;
+  gap: 50px;
+  justify-content: flex-start;
+}
+.dropdown-contentP {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 300px;
+  flex-direction: row; 
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-contentP .dropdown-sub {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-contentP {
+  display: block;
+  color: rgb(43, 22, 164);
+  
+} 
